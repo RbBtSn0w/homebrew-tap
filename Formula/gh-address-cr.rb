@@ -7,7 +7,7 @@ class GhAddressCr < Formula
   sha256 "639ba17025a7e7a2a57cb0f924469f5b73c4c6304546d3736fcba71ed21255ac"
   license "MIT"
 
-  depends_on "python@3.13"
+  depends_on "python@3.14"
 
   resource "packaging" do
     url "https://files.pythonhosted.org/packages/d7/f1/e7a6dd94a8d4a5626c03e4e99c87f241ba9e350cd9e6d75123f992427270/packaging-26.2.tar.gz"
