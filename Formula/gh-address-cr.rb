@@ -3,8 +3,8 @@ class GhAddressCr < Formula
 
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
-  url "https://files.pythonhosted.org/packages/df/a5/9ad545946434860bcd695316fa1dd990541183c22292a3d9962b836d4c31/gh_address_cr-3.5.0.tar.gz"
-  sha256 "fd73dbc74ec9c0dc49c18f2a72b5472b01b0c13ef71ee1b2be1043b11256ba1c"
+  url "https://files.pythonhosted.org/packages/21/5f/91b7be2d6fb80a146fbdd4e2bd05e2e75b9b844f7707378c34be536c3c2b/gh_address_cr-3.5.1.tar.gz"
+  sha256 "0def59211ffccf61062e541e0b724dafd6f6bc6859b81b15a55ffdb139a068c1"
   license "MIT"
 
   depends_on "python@3.14"
@@ -75,8 +75,8 @@ class GhAddressCr < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
-    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
+    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   resource "urllib3" do
