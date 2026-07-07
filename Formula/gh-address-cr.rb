@@ -3,8 +3,8 @@ class GhAddressCr < Formula
 
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
-  url "https://files.pythonhosted.org/packages/dc/82/ef3d2a89871266651beeef5e6af173be1e36ef3710132ba857111ca4136a/gh_address_cr-3.5.4.tar.gz"
-  sha256 "8899900c52f8adfd71c44e574dd80dec05138164373a0abd5edaa40002a7a952"
+  url "https://files.pythonhosted.org/packages/c7/a3/11a659bb9701a8786d4c119beed3979894c685642b98ce98d19b18b0fd48/gh_address_cr-3.5.5.tar.gz"
+  sha256 "3c6b995784972737e90fa63e04de11ad111ec88c6b90291aab0003dff3e7289f"
   license "MIT"
 
   depends_on "python@3.14"
@@ -15,8 +15,8 @@ class GhAddressCr < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
-    sha256 "ae89db9e5f98a11a4bf50407d4363e7b09b31e55bc117b4f7d80aab97ba009e5"
+    url "https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz"
+    sha256 "673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b"
   end
 
   resource "googleapis-common-protos" do
