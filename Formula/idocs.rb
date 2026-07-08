@@ -1,9 +1,9 @@
 class Idocs < Formula
   desc "Swift-native Apple documentation CLI"
   homepage "https://github.com/RbBtSn0w/Apple-iDocs"
-  url "https://github.com/RbBtSn0w/Apple-iDocs/releases/download/v1.8.0/idocs-darwin-arm64.tar.gz"
-  version "1.8.0"
-  sha256 "96387dd7df666a9b65da3830709ffdb4f98b005f41df1946e254a65d76747f3f"
+  url "https://github.com/RbBtSn0w/Apple-iDocs/releases/download/v1.9.0/idocs-darwin-arm64.tar.gz"
+  version "1.9.0"
+  sha256 "f38c05d04c6aeac61a1dbae521863bcaaced6a21a64968bc340f7dba1cba15f7"
   license "MIT"
 
   depends_on macos: :ventura
