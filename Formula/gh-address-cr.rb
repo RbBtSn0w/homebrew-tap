@@ -3,15 +3,15 @@ class GhAddressCr < Formula
 
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
-  url "https://files.pythonhosted.org/packages/07/dd/7f57d319701a58bce53bf35e44a2af99011923e6089f8ab9680d61e28517/gh_address_cr-3.5.11.tar.gz"
-  sha256 "41f1b211b8d3fabff51171337d8cd7977276204e535c2e934a016262aaad8137"
+  url "https://files.pythonhosted.org/packages/51/0a/179534c1daba6d2fdae227a019ba313bef0a800530fe3894ad97c32436b7/gh_address_cr-3.5.12.tar.gz"
+  sha256 "3448c59d72edfe7d840d69336ed72cf22b417529db4badd419efd992c3b10e09"
   license "MIT"
 
   depends_on "python@3.14"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
-    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
+    url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
+    sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
   end
 
   resource "charset-normalizer" do
