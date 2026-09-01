@@ -3,8 +3,8 @@ class GhAddressCr < Formula
 
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
-  url "https://files.pythonhosted.org/packages/99/07/3fce0d98dcc2c8126acf4a5641c23466632261ee8af2db2b8b06c583c226/gh_address_cr-3.7.5.tar.gz"
-  sha256 "0b7296d12ca20097331ac4ba1b47732d0f150f0a365d882bf1f88e98e14973eb"
+  url "https://files.pythonhosted.org/packages/ef/bf/aa86c004db8deb31d37d57a081a1296f8eb60ed098268ed2e3a47fbc2dcc/gh_address_cr-3.7.6.tar.gz"
+  sha256 "b42288a4f8ef85a62ee1acf02f4198f3f751744871720c8280df1efe9c845a36"
   license "MIT"
 
   depends_on "python@3.14"
@@ -65,8 +65,8 @@ class GhAddressCr < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/a7/e7/0553e21d25ca4d9f573135775348a372c3ec34a93a71d5f297c3bac38341/protobuf-7.36.0.tar.gz"
-    sha256 "e8e09cb0d794c6687926fa558a8a6e72aa10edb997d5ca61da0765f12a3e00ea"
+    url "https://files.pythonhosted.org/packages/86/73/f66c748df06e7fe24e658eddd600d19c4b40bad836c97ce2d0ad9851fb6b/protobuf-7.36.1.tar.gz"
+    sha256 "d0f6470f0ce2b84e3feaea2d4b816378b37ba4d4aa08a274305373de93e2d524"
   end
 
   resource "requests" do
