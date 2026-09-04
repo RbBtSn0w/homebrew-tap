@@ -3,8 +3,8 @@ class GhAddressCr < Formula
 
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
-  url "https://files.pythonhosted.org/packages/66/6d/4952c5c299f44d164b0c701b90888654e0ac6a0c3c0a60c009157e6c4b9f/gh_address_cr-3.13.1.tar.gz"
-  sha256 "06a6d0d0279e40ef1fb414343a29bb6414347918c6839f99120ea0e4326ffdd4"
+  url "https://files.pythonhosted.org/packages/5e/95/a801123de1ed0c2ba0d3f2be5180fd1398b771a1520e5b5c3febbc550e5d/gh_address_cr-3.14.0.tar.gz"
+  sha256 "c03fb1a5be0eb042cf32bba2b16241d8196e2a082d0f34333963b3694d28f7f1"
   license "MIT"
 
   depends_on "python@3.14"
@@ -20,8 +20,8 @@ class GhAddressCr < Formula
   end
 
   resource "googleapis-common-protos" do
-    url "https://files.pythonhosted.org/packages/c0/90/fb8f1c84537fbf210c1f53a53ae473a805f6599c5a40b93c1bbadd211f7a/googleapis_common_protos-1.75.2.tar.gz"
-    sha256 "8829a3d1e4508c5b7b9a6b9525f7fccff611f8531644579a76466c29295d4bb2"
+    url "https://files.pythonhosted.org/packages/8a/c5/4353a188e2c335aee33269e8b654af228278cca8e5f0b4b5f11e5d0e9adb/googleapis_common_protos-1.75.3.tar.gz"
+    sha256 "57c435ac2c68b108999b6db075d9053e4d7a936ba57b4a3d45667b1346f1738a"
   end
 
   resource "idna" do
