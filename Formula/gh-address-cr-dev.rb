@@ -2,7 +2,7 @@ class GhAddressCrDev < Formula
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
   url "https://github.com/RbBtSn0w/gh-address-cr/releases/download/pr-preview/gh-address-cr-pr356.tar.gz"
-  sha256 "6995ab3cbf765a3f2190823be9e2c7cb411057c6d5dd6d015c8eb798d6018ea7"
+  sha256 "882fa179e2da8edd3832ff1558f73652dbf28a702b15eff0c3fc9b10adf95296"
   license "MIT"
 
   depends_on "python@3.14"
