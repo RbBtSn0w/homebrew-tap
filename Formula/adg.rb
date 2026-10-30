@@ -3,8 +3,8 @@ require "language/node"
 class Adg < Formula
   desc "Agent Directory Group toolkit for plugins and skills"
   homepage "https://github.com/RbBtSn0w/adg"
-  url "https://registry.npmjs.org/@rbbtsn0w/adg/-/adg-0.11.0.tgz"
-  sha256 "bd4cf8525bf990c97cd5c27120ece46b29e8bc2588c714b586fa46787a0bebe0"
+  url "https://registry.npmjs.org/@rbbtsn0w/adg/-/adg-0.11.1.tgz"
+  sha256 "ae4169bf5ad559860fb3f6b5daa8fc072e6c5c0bb1b1e89f9d715a1466a041fc"
   license "MIT"
 
   depends_on "node"
