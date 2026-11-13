@@ -3,16 +3,16 @@ class GhAddressCr < Formula
 
   desc "Deterministic PR review-resolution control plane runtime"
   homepage "https://github.com/RbBtSn0w/gh-address-cr"
-  url "https://files.pythonhosted.org/packages/cd/f8/f2810b0ef2edb082d8d48a3101834dea284a0449dff30964bff31e50966e/gh_address_cr-3.23.0.tar.gz"
-  sha256 "903cd7d07022686e88e0320314d0d783f5ccc935f87116fecba1c90daa252279"
+  url "https://files.pythonhosted.org/packages/9a/b3/62babf9703203e0f47030e41cc5a3b252c7eb1a9fb26eefa8111f3c503bc/gh_address_cr-3.24.0.tar.gz"
+  sha256 "b05bc0a7ad49fdc73b5f0c2164a38bacd5c67354869a4c2e41ddcbf3f56d0874"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/RbBtSn0w/gh-address-cr/releases/download/v3.23.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "2ae9d5e0242d589df6357351c621edc924fa1d782647c556870f783bf13c9b8b"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c77262ad58be4b3ae4fb68f153f633da79c66ef33cb101cc4467aab310322e1e"
-    sha256 cellar: :any_skip_relocation, tahoe:         "1cd37fef12dd8bf0825426f3a84c99acf4e819d4e19af4acb7051706ef63e33a"
-    sha256 cellar: :any_skip_relocation, sequoia:       "c026716eeb93b3db69d5d2a4cfd7a6358b023d468017b5afc92bfa25d9819bc0"
+    root_url "https://github.com/RbBtSn0w/gh-address-cr/releases/download/v3.24.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "2396897464fe68ad41d5e740c9c43ec7d0d2716066f5b7960dfbe8fcc917739b"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "14186698d7cb76dd98bb90417872b501e257de5eaffbb632cc3639132a7aa7f0"
+    sha256 cellar: :any_skip_relocation, tahoe:         "e2c36b743d102c085bed81f3eba3ea458a9b94723595a34c5c98efe337b389e3"
+    sha256 cellar: :any_skip_relocation, sequoia:       "429ea54863af9fbacc6fc13fd035a470d87c13dc6314efb5d7a0f03c5b39fc73"
   end
 
   depends_on "python@3.14"
